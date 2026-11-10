@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vender | Evolv Real Estate</title>
+<meta name="description" content="Vende o alquila tu propiedad en la Sierra de Madrid con Evolv Real Estate. Cuéntanos los datos y te contactamos.">
+<meta property="og:site_name" content="Evolv Real Estate">
+<meta property="og:title" content="Vender | Evolv Real Estate">
+<meta property="og:description" content="Vende o alquila tu propiedad en la Sierra de Madrid con Evolv Real Estate. Cuéntanos los datos y te contactamos.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta name="theme-color" content="#1b3128">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231b3128'/%3E%3Cpath d='M16 46V18h30v6H24v5h19v6H24v5h22v6z' fill='%23e2b93b'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Saltar al contenido</a>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html" aria-label="Evolv Real Estate, inicio">
+      <img src="https://static.wixstatic.com/media/306168_a1d3e7706f6c463e813acca16c5b140a~mv2.png" alt="Evolv Real Estate" width="137" height="44" referrerpolicy="no-referrer">
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menú</button>
+    <nav class="nav" id="site-nav" aria-label="Principal">
+      <ul class="nav-list">
+          <li><a href="comprar.html">Comprar</a></li>
+          <li><a href="alquilar.html">Alquilar</a></li>
+          <li><a href="vender.html" aria-current="page">Vender</a></li>
+      </ul>
+      <a class="btn btn-primary btn-sm" href="visita.html">Reservar visita</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<div class="container page-title">
+  <h1>Vende tu propiedad rápida y sencillamente</h1>
+  <p>Rellena los datos de tu propiedad y nos ponemos en contacto contigo.</p>
+</div>
+<section class="section">
+  <div class="container">
+    <form class="form" data-form="vender" novalidate>
+      <div class="form-row">
+        <div class="field"><label for="v-nombre">Nombre</label><input id="v-nombre" name="Nombre" autocomplete="given-name" required></div>
+        <div class="field"><label for="v-apellido">Apellido</label><input id="v-apellido" name="Apellido" autocomplete="family-name"></div>
+      </div>
+      <div class="form-row">
+        <div class="field"><label for="v-email">Email</label><input id="v-email" type="email" name="email" autocomplete="email" required></div>
+        <div class="field"><label for="v-tel">Teléfono <span class="opt">(opcional)</span></label><input id="v-tel" type="tel" name="Teléfono" autocomplete="tel"></div>
+      </div>
+      <div class="form-row">
+        <div class="field"><label for="v-barrio">Barrio</label><input id="v-barrio" name="Barrio"></div>
+        <div class="field"><label for="v-piso">Piso</label><input id="v-piso" name="Piso"></div>
+      </div>
+      <div class="field"><label for="v-dir">Dirección completa</label><input id="v-dir" name="Dirección completa" autocomplete="street-address"></div>
+      <div class="field"><label for="v-hab">Número de habitaciones</label><input id="v-hab" type="number" min="0" inputmode="numeric" name="Número de habitaciones"></div>
+      <div class="field"><label for="v-hist">Historia del edificio</label><textarea id="v-hist" name="Historia del edificio"></textarea></div>
+      <fieldset class="fieldset">
+        <legend>Servicio que desea realizar</legend>
+        <div class="choices">
+          <label class="check"><input type="radio" name="Servicio que desea realizar" value="Vender vivienda" required><span>Vender vivienda</span></label>
+          <label class="check"><input type="radio" name="Servicio que desea realizar" value="Alquilar vivienda"><span>Alquilar vivienda</span></label>
+        </div>
+      </fieldset>
+      <fieldset class="fieldset">
+        <legend>Servicios del edificio <span class="opt" style="font-weight:400;color:var(--ink-soft)">(marca los que tenga)</span></legend>
+        <div class="choices-grid">
+          <label class="check"><input type="checkbox" name="Servicios" value="Portero"><span>Portero</span></label>
+          <label class="check"><input type="checkbox" name="Servicios" value="Almacén"><span>Almacén</span></label>
+          <label class="check"><input type="checkbox" name="Servicios" value="Elevador"><span>Elevador</span></label>
+          <label class="check"><input type="checkbox" name="Servicios" value="Lavadora/secadora"><span>Lavadora/secadora</span></label>
+          <label class="check"><input type="checkbox" name="Servicios" value="Luz natural"><span>Luz natural</span></label>
+          <label class="check"><input type="checkbox" name="Servicios" value="Lavandería"><span>Lavandería</span></label>
+          <label class="check"><input type="checkbox" name="Servicios" value="Techos altos"><span>Techos altos</span></label>
+        </div>
+      </fieldset>
+      <label class="check"><input type="checkbox" name="Acepta la política de privacidad" value="Sí" required><span>He leído y acepto la <a href="privacidad.html">política de privacidad</a></span></label>
+      <div class="hp" aria-hidden="true"><label>No rellenar<input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+      <button class="btn btn-primary" type="submit">Enviar</button>
+      <p class="form-status" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h2>Enlaces</h2>
+        <ul class="footer-list">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="comprar.html">Comprar</a></li>
+          <li><a href="alquilar.html">Alquilar</a></li>
+          <li><a href="vender.html">Vender</a></li>
+          <li><a href="visita.html">Reservar visita</a></li>
+          <li><a href="privacidad.html">Política de privacidad</a></li>
+        </ul>
+        <h2 style="margin-top:2rem">Contacto</h2>
+        <address class="footer-contact">
+          <p>Tel: <a href="tel:+34627057668">+34 627 05 76 68</a></p>
+          <p>Email: <a href="mailto:evolvrealestate@gmail.com">evolvrealestate@gmail.com</a></p>
+          <p>28460 Los Molinos, Madrid</p>
+          <p><a href="https://wa.me/34627057668" rel="noopener">WhatsApp</a> &nbsp; <a href="https://www.instagram.com/evolvhome" rel="noopener">Instagram</a></p>
+        </address>
+      </div>
+      <div style="grid-column: span 2">
+        <h2>Déjanos un mensaje</h2>
+        <form class="form" data-form="contacto" novalidate>
+          <div class="form-row">
+            <div class="field"><label for="f-nombre">Nombre</label><input id="f-nombre" name="Nombre" autocomplete="given-name" required></div>
+            <div class="field"><label for="f-apellido">Apellido</label><input id="f-apellido" name="Apellido" autocomplete="family-name" required></div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label for="f-email">Email</label><input id="f-email" type="email" name="email" autocomplete="email" required></div>
+            <div class="field"><label for="f-tel">Teléfono</label><input id="f-tel" type="tel" name="Teléfono" autocomplete="tel"></div>
+          </div>
+          <div class="field"><label for="f-msg">Mensaje</label><textarea id="f-msg" name="Mensaje" required></textarea></div>
+          <label class="check"><input type="checkbox" name="Acepta la política de privacidad" value="Sí" required><span>He leído y acepto la <a href="privacidad.html">política de privacidad</a></span></label>
+          <div class="hp" aria-hidden="true"><label>No rellenar<input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+          <button class="btn btn-primary" type="submit">Enviar</button>
+          <p class="form-status" role="status"></p>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Evolv Real Estate</span>
+      <a href="privacidad.html">Política de privacidad</a>
+    </div>
+  </div>
+</footer>
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
